@@ -21,6 +21,7 @@ import java.util.Scanner;
  */
 
 public class Main {
+	
 // Lots of old C++ code left over in here...
 
     // http://java.about.com/od/workingwithobjects/a/accessormutator.htm
@@ -46,6 +47,7 @@ public class Main {
        logFile.setFormatter(new SimpleFormatter());
        logger.addHandler(logFile);
        logger.log(Level.INFO, "::::::::::::::::::Init Logging::::::::::::::::::");
+       system.out.println("Helllo World");
        Random rand = new Random();      
 //        final int PLANET_NAME_SIZE=9;
 //        final int UNIVERSE_ARRAY_SIZE=9;
