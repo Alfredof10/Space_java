@@ -64,9 +64,8 @@ public class Main {
    Planetoid beltegeuse = new Planetoid (18,(rand.nextInt(POSITIVE_Y_LIMIT - NEGATIVE_Y_LIMIT + 1) + NEGATIVE_Y_LIMIT),10,"Beltegeuse");
 
    Ship s = new Ship(moon.getX(),moon.getY(),"Enterprise",512.25,100,200,300,400,5000);
-bahabahahahahaah FIX IT!!!!!!!!!!!!!!!
 
-Is there more????????
+
 
 //***********************************************************************************
 // Create planet objects
@@ -110,7 +109,7 @@ Is there more????????
    } // end of while
 
     } //end of main class
-bahahahahaha
+
 private static void checkIfAtPlanet(Ship s, Planet jupiter, Planet earth, Planet mars, Moon ganymede, Moon moon, Planet saturn, Planet neptune, Planet pluto, Planet ceres, Planetoid sun, Planetoid beltegeuse) throws IOException {
 //private static void checkIfAtPlanet(Object[])
       Unit[] pojo = {s,jupiter,earth,mars,ganymede,moon,saturn,neptune,pluto,ceres,sun,beltegeuse};
